@@ -1,59 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>My Site</title>
-	
-	
-   <link href="style1.css" rel="stylesheet">
-   <link href="style.css" rel="stylesheet">
-	
+	<meta charset="UTF-8">
+	<title>My Site</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+	<script src="app.js"></script>
 	
 </head>
 <body>
-<header>
-<div class="containermain">
-			<div class="row">
+	<header class="header">
+		<div class="container">
+		<div class="row">
 		<div class="col-3 logo">
-
-
- <p><img src="img/Logo.png" alt="LogoHere"></p> </div>
-
-
-	<div class="col-6">
-        
-
-				
-		<ul class="container">
-		
-			<li><a>Home</a></li>
-			<li><a href=#>Products</a>
-				<ul class="submenu">
-					<li><a href=#>Lorem ipsum dolor</a></li>
-					<li><a href=#>Sit amet</a></li>
-					<li><a href=#>Consectetur adipisicing</a></li>
-					<li><a href=#>Tempor incididunt</a></li>
-					<li><a href=#>Dolore magna aliqua</a></li>
-					<li><a href=#>Ut enim ad minim veniam</a></li>
-					<li><a href=#>Quis nostrud</a></li>
-				</ul>
-			</li>
-			<li><a>Payment</a></li>
-			<li><a>Shiping</a></li>
-				
-	
-
-		</ul>
-		
-        <div class="clearfix"></div>
+		<a href="index.html"><img src="img/logo.png"></a>
 	</div>
-   <div class="col-3">
 
-  			<p><input type="search" name="" placeholder="search" class="input"></p>
-  			
-<script src="app.js"> </script>
+		<div class="col-6">
+			
+				<ul class="menu">
+					<li><a href="">Home</a></li>
+					<li ><a href="" class="drop">Products</a>
+				<ul class="submenu">
+            		<li><a href=#>Lorem ipsum dolor</a></li>
+            		<li><a href=#>Sit amet</a></li>
+            		<li><a href=#>Consectetur adipisicing</a></li>
+            		<li><a href=#>Tempor incididunt </a></li>
+            		<li><a href=#>Ut enim ad minim veniam</a></li>
+            		<li><a href=#>Quis nostrud</a></li>
+				</ul>
+    </li>
+					<li><a href="">Payment</a></li>
+					<li><a href="">Shipping</a></li>
+				</ul>
+			
+		</div>
+		<div class="col-3">
+			<div class="search">	
+				<input type="search" name="" placeholder="search" class="input">
+				<button class="button1"></button>
+			</div>	
 
-</div></div>
-</header>
+</div>
+</div>
+<div>
+			<form action="" method="post" class="search">
+				<button class="Button2"></button>
+				<div class="count" id="products-count">0</div>
+			
+			</form>
+</div>
+
+	</div>
+</div>
+	</header>
+	
+	
+	
+	
+	
+	<main>
+	    <section class="slider">
+			</section>
+	
+		<div class="container">
+			
+			
+			<section class="products row">
+				<aside class="col-3">
+						<div class="sidebar">
+							<p class="device-characteristic">Device type</p>
+							<div class="device-type">
+								<input type="checkbox" id="text">
+								<label for="text"><p>Laptop</p></label>
+							</div>
+							<div class="device-type">
+								<input type="checkbox" id="text1">
+								<label for="text1"><p>Tablet</p></label>
+							</div>
+							<p class="device-characteristic">Color</p>
+							<div class="device-type">
+								<input type="checkbox" id="text2">
+								<label for="text2"><p>Black</p></label>
+							</div>
+							<div class="device-type">
+								<input type="checkbox" id="text3">
+								<label for="text3"><p>Green</p></label>
+							</div>
+							<div class="device-type">
+								<input type="checkbox" id="text4">
+								<label for="text4"><p>Blue</p></label>
+							</div>
+							<div class="device-type">
+								<input type="checkbox" id="text5">
+								<label for="text5"><p>Orange</p></label>
+							</div>
+							<p class="device-characteristic">Ram</p>
+							<div class="device-type">
+								<input type="checkbox" id="text6">
+								<label for="text6"><p>1GB</p></label>
+							</div>
+							<div class="device-type">
+								<input type="checkbox" id="text7">
+								<label for="text7"><p>2GB</p></label>
+							</div>
+							<div class="device-type">
+								<input type="checkbox" id="text8">
+								<label for="text8"><p>4GB</p></label>
+							</div>
+							<div class="device-type">
+								<input type="checkbox" id="text9">
+								<label for="text9"><p>6GB</p></label>
+							</div>
+							<div class="device-type">
+								<input type="checkbox" id="text10">
+								<label for="text10"><p>8GB</p></label>
+							</div>
+							<div class="btn-more"><a href="#">Show more options ...</a></div>
+							<div class="btn"><a href="#" class="btn-unfilled">Submit</a></div>
+						</div>
+					</aside>
+				
+				
+				
+					<div class="col-9">
+						<div class="bread-crumbs">
+							<span><a href="#">Home page</a></span>
+							<span><a href="#">Products</a></span>
+							<span>Laptops and Tablets</span>
+						</div>
+
+						<div class="row products-name">
+							<div class="col-8">
+								<h1 class="products-header">Laptops and Tablets</h1>
+							</div>
+							<div class="col-4">
+								<nav>
+									<ul class="sort-menu">
+										<li><a href="#">sort by device-price</a>
+											<ul class="sub-sort-menu">
+												<li><a href="#">sort by name</a></li>
+												<li><a href="#">sort by date</a></li>
+												<li><a href="#">sort by popularity</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+
+						<div class="row devices">
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-1.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#1 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;599<sup>25</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-2.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#2 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;1250<sup>99</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-3.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#3 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;399<sup>50</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-4.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#1 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;599<sup>25</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-5.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#2 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;1250<sup>99</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-6.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#3 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;399<sup>50</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-1.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#1 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;599<sup>25</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-8.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#2 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;1250<sup>99</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="device-item">
+									<div class="device-img">
+										<img src="img/device-9.png">
+										<div class="small-img like-img"></div>
+										<div class="small-img border-img"></div>
+									</div>
+									<p class="device-name">#3 Device Name</p>
+									<p class="device-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><span class="device-characteristic">TYPE:</span> Laptop</p>
+									<p><span class="device-characteristic">Screen size:</span> 7 inches</p>
+									<p><span class="device-characteristic">RAM:</span> 1GB</p>
+									<p class="device-price">&#36;399<sup>50</sup></p>
+									<div class="btn"><a href="#" class="btn-unfilled">More details</a></div>
+									<div class="btn"><a href="#" class="add-to-cart btn-filled">Add to cart</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="btn-more"><a href="#">Load more ...</a></div>
+					</div>
+				
+				
+				
+				
+			
+
+				
+
+
+
+
+			</section>
+		</div>	
+	</main>	
+	<footer>
+		<div style="text-align: center;">© Copyright 2019 </div>
+	</footer>
+	
+	<script src="app.js"></script>
+	
 </body>
 </html>

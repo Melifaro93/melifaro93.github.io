@@ -1,0 +1,305 @@
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Богиня охоты/Desktop/web/.git/
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git config --local user.name "Oleg Gordienko"
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git --config
+unknown option: --config
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   img/Logo.png
+        new file:   img/patt.png
+        new file:   index.html
+        new file:   maket/1.jpg
+        new file:   maket/2.jpg
+        new file:   maket/3.jpg
+        new file:   "maket/SHOP \320\272\320\276\320\277\320\270\321\217.psd"
+        new file:   maket/icon (1).png
+        new file:   maket/icon (10).png
+        new file:   maket/icon (11).png
+        new file:   maket/icon (12).png
+        new file:   maket/icon (13).png
+        new file:   maket/icon (14).png
+        new file:   maket/icon (15).png
+        new file:   maket/icon (16).png
+        new file:   maket/icon (17).png
+        new file:   maket/icon (2).png
+        new file:   maket/icon (3).png
+        new file:   maket/icon (4).png
+        new file:   maket/icon (5).png
+        new file:   maket/icon (6).png
+        new file:   maket/icon (7).png
+        new file:   maket/icon (8).png
+        new file:   maket/icon (9).png
+        new file:   maket/patt.png
+        new file:   style.css
+        new file:   style1.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git commit -m "First Try to push"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '▒▒▒▒▒▒ ▒▒▒▒▒@DESKTOP-Q5CIMMH.(none)')
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git config --global user.name
+Oleg Gordienko
+"
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git config --local user.email "melifarosaint@gmail.com"
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   img/Logo.png
+        new file:   img/patt.png
+        new file:   index.html
+        new file:   maket/1.jpg
+        new file:   maket/2.jpg
+        new file:   maket/3.jpg
+        new file:   "maket/SHOP \320\272\320\276\320\277\320\270\321\217.psd"
+        new file:   maket/icon (1).png
+        new file:   maket/icon (10).png
+        new file:   maket/icon (11).png
+        new file:   maket/icon (12).png
+        new file:   maket/icon (13).png
+        new file:   maket/icon (14).png
+        new file:   maket/icon (15).png
+        new file:   maket/icon (16).png
+        new file:   maket/icon (17).png
+        new file:   maket/icon (2).png
+        new file:   maket/icon (3).png
+        new file:   maket/icon (4).png
+        new file:   maket/icon (5).png
+        new file:   maket/icon (6).png
+        new file:   maket/icon (7).png
+        new file:   maket/icon (8).png
+        new file:   maket/icon (9).png
+        new file:   maket/patt.png
+        new file:   style.css
+        new file:   style1.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+        modified:   style.css
+
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git add .
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   img/Logo.png
+        new file:   img/patt.png
+        new file:   index.html
+        new file:   maket/1.jpg
+        new file:   maket/2.jpg
+        new file:   maket/3.jpg
+        new file:   "maket/SHOP \320\272\320\276\320\277\320\270\321\217.psd"
+        new file:   maket/icon (1).png
+        new file:   maket/icon (10).png
+        new file:   maket/icon (11).png
+        new file:   maket/icon (12).png
+        new file:   maket/icon (13).png
+        new file:   maket/icon (14).png
+        new file:   maket/icon (15).png
+        new file:   maket/icon (16).png
+        new file:   maket/icon (17).png
+        new file:   maket/icon (2).png
+        new file:   maket/icon (3).png
+        new file:   maket/icon (4).png
+        new file:   maket/icon (5).png
+        new file:   maket/icon (6).png
+        new file:   maket/icon (7).png
+        new file:   maket/icon (8).png
+        new file:   maket/icon (9).png
+        new file:   maket/patt.png
+        new file:   style.css
+        new file:   style1.css
+
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git commit -m "First Try to push"
+[master (root-commit) ea1e188] First Try to push
+ 27 files changed, 242 insertions(+)
+ create mode 100644 img/Logo.png
+ create mode 100644 img/patt.png
+ create mode 100644 index.html
+ create mode 100644 maket/1.jpg
+ create mode 100644 maket/2.jpg
+ create mode 100644 maket/3.jpg
+ create mode 100644 "maket/SHOP \320\272\320\276\320\277\320\270\321\217.psd"
+ create mode 100644 maket/icon (1).png
+ create mode 100644 maket/icon (10).png
+ create mode 100644 maket/icon (11).png
+ create mode 100644 maket/icon (12).png
+ create mode 100644 maket/icon (13).png
+ create mode 100644 maket/icon (14).png
+ create mode 100644 maket/icon (15).png
+ create mode 100644 maket/icon (16).png
+ create mode 100644 maket/icon (17).png
+ create mode 100644 maket/icon (2).png
+ create mode 100644 maket/icon (3).png
+ create mode 100644 maket/icon (4).png
+ create mode 100644 maket/icon (5).png
+ create mode 100644 maket/icon (6).png
+ create mode 100644 maket/icon (7).png
+ create mode 100644 maket/icon (8).png
+ create mode 100644 maket/icon (9).png
+ create mode 100644 maket/patt.png
+ create mode 100644 style.css
+ create mode 100644 style1.css
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git remote add origin https://github.com/Melifaro93/melifaro93.github.io.git
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git push origin master
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (29/29), 4.94 MiB | 1.18 MiB/s, done.
+Total 29 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/Melifaro93/melifaro93.github.io.git
+ * [new branch]      master -> master
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ touch app.js
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        app.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git add app.js
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   app.js
+
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git commit -m "added new file app.js"
+[master 490a568] added new file app.js
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 app.js
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   app.js
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   app.js
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git add .
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   app.js
+        modified:   index.html
+
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git commit -m "added new file app.js with some new code"
+[master b0d2de0] added new file app.js with some new code
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+
+Богиня охоты@DESKTOP-Q5CIMMH MINGW64 ~/Desktop/web (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 818 bytes | 204.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Melifaro93/melifaro93.github.io.git
+   ea1e188..b0d2de0  master -> master
