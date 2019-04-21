@@ -14,3 +14,27 @@ for (var i = 0; i < addToCartButtons.length; i++) {
 	})
 	
 }
+
+
+
+
+var  likeOnClick = document.getElementById('like');
+console.log(likeOnClick);
+
+var clickEvent = document.querySelectorAll(".like-img")
+console.log(clickEvent);
+
+
+ $("#like-img").click(function(){
+
+        if($(this).hasClass("bg_menu_active")){
+
+            $(this).removeClass();
+
+        }else{
+
+           $(this).addClass("bg_menu_active");
+
+        }
+		
+    });

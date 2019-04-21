@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Untitled</title>
+  <meta charset="utf-8">
+   <script type='text/javascript' src='https://code.jquery.com/jquery-1.10.2.js'></script>
+  <script type='text/javascript' src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <style type="text/css">
+  /*Классы для jQuery*/
+.bg_menu_active{
+    background: #56CCC8;
+}
+/*END*/
+
+#menu{
+        width:224px;
+    }
+        #menu nav h3{
+            padding:26px 0 17px 0;
+            border-bottom:1px solid #e1e4e6;
+
+        }
+        #menu nav h3:hover{
+           background: #56CCC8;
+
+        }
+
+        #menu nav h3:first-child{
+            border-bottom: 1px solid #e1e4e6;
+        }
+        #menu nav h3 a{
+                display: block;
+                cursor: pointer;
+                font:16px Roboto,"Segoe ui", Arial, Tahoma, sans-serif;
+                color: #4b5156;
+                margin:3px 0 0 0;
+                text-decoration: none;
+            }
+        #menu nav h3 img{
+            float:left;
+            margin:0 15px 0 10px;
+        }
+        #menu nav ul li:first-child{
+            margin:16px 21px 0 21px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        #menu nav ul li{
+            margin:10px 21px 0 21px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        #menu nav ul li:last-child{
+            border-bottom: 0px solid #e0e0e0;
+        }
+        #menu nav ul li a{
+            font:16px Roboto,"Myriad Pro",Tahoma,Arial,"sans-serif";
+            color:#4b5156;
+            display: block;
+            text-decoration: none;
+            margin:0 0 0 25px;
+            transition: 0.3s margin-left;
+        }
+        #menu nav ul li a:hover{
+            color:#85cbc7;
+            margin-left:35px;
+        }
+  </style>
+  <script>
+$(document).ready(function(){
+
+    //Меню аккордион
+    $("#accordion").accordion({
+        active: false,
+        collapsible: true,
+        header: "h3",
+        heightStyle: "content"
+    });
+   //Выбранный пункт аккордиона
+    $("#accordion h3").click(function(){
+        if($(this).hasClass("bg_menu_active")){
+            $(this).removeClass();
+        }else{
+            $(this).addClass("bg_menu_active");
+        }
+    });
+});
+
+  </script>
+</head>
+
+<body>
+<nav id="accordion">
+                <!-- 1 -->
+                <h3>
+                    <img src="images/less_icon.png" width="35" height="23">
+                    <a href="#">Меню 1</a>
+                </h3>
+                <ul>
+                    <li><a href="#">- 1</a></li>
+                    <li><a href="#">- 2</a></li>
+                    <li><a href="#">- 3</a></li>
+                    <li><a href="#">- 4</a></li>
+                    <li><a href="#">- 5</a></li>
+                </ul>
+
+                <!-- 2 -->
+                <h3>
+                    <img src="images/add_icon.png" width="27" height="26">
+                    <a href="#">Меню 2</a>
+                </h3>
+                <ul>
+                    <li><a href="#">- 1</a></li>
+                    <li><a href="#">- 2</a></li>
+                    <li><a href="#">- 3</a></li>
+                    <li><a href="#">- 4</a></li>
+                    <li><a href="#">- 5</a></li>
+                </ul>
+
+                <!-- 3 -->
+                <h3>
+                    <img src="images/book_icon.png" width="31" height="25">
+                    <a href="#">Меню 3</a></h3>
+                <ul>
+                    <li><a href="#">- 1</a></li>
+                    <li><a href="#">- 2</a></li>
+                    <li><a href="#">- 2</a></li>
+                    <li><a href="#">- 3</a></li>
+                    <li><a href="#">- 4</a></li>
+                </ul>
+
+            </nav>
+
+</body>
+
+</html>
